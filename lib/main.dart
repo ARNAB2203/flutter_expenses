@@ -7,6 +7,11 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      title: 'Personal Expenses',
+      home: _MyHomePage(),
+    );
   }
 }
+
+class _MyHomePage extends StatefulWidget {}
